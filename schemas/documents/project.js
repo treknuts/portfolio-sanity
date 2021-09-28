@@ -22,16 +22,21 @@ export default {
             type: 'text'
         },
         {
+            title: 'Technologies',
+            name: 'technologies',
+            type: 'array',
+            of: [{type: 'string'}]
+        },
+        {
             title: 'Github Url',
             name: 'githubUrl',
             type: 'url',
             initialValue: 'https://github.com/treknuts/',
         },
         {
-            title: 'Technologies',
-            name: 'technologies',
-            type: 'array',
-            of: [{type: 'string'}]
+            title: 'Image Url',
+            name: 'imageUrl',
+            type: 'url'
         }
     ],
 }
